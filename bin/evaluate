@@ -1,0 +1,53 @@
+#!/usr/bin/env python
+
+import numpy as np
+import editdistance
+import click
+
+
+def accuracy(references, hypotheses):
+    return np.mean([int(h == r) for h, r in zip(hypotheses, references)])
+
+
+def mean_f1(references, hypotheses):
+    return np.mean([f1(r, h) for r, h in zip(references, hypotheses)])
+
+
+def f1(src: str, tgt: str) -> float:
+    def lcs(src: str, tgt: str) -> float:
+        lcs = 0.5 * ((len(src) + len(tgt)) - editdistance.eval(src, tgt))
+
+        return lcs
+
+    try:
+        rec = lcs(src, tgt) / len(tgt)
+    except ZeroDivisionError:
+        rec = 0
+    prec = lcs(src, tgt) / len(src)
+    try:
+        return 2 * ((rec * prec) / (rec + prec))
+    except ZeroDivisionError:
+        return 0
+
+
+@click.command()
+@click.option("--references-file", "-r", type=click.File())
+@click.argument("hypothesis_files", nargs=-1, type=click.File())
+def main(references_file, hypothesis_files):
+
+    references = [line for line in references_file if line.strip()]
+
+    click.echo("name\tmean_f1\taccuracy")
+    for hf in hypothesis_files:
+        hypotheses = [line for line in hf if line.strip()]
+
+        # import ipdb; ipdb.set_trace()
+
+        acc = accuracy(references, hypotheses)
+        score = mean_f1(references, hypotheses)
+
+        click.echo(f"{hf.name}\t{score}\t{acc}", nl=True)
+
+
+if __name__ == "__main__":
+    main()

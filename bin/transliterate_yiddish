@@ -1,0 +1,43 @@
+#!/usr/bin/env python
+
+import click
+import yiddish
+
+SCRIPTS = ["romanized", "yivo", "chasidic"]
+
+CHA = "chasidic"
+YIVO = "yivo"
+ROM = "romanized"
+
+
+def transliterate(text: str, from_script: str, to_script: str) -> str:
+
+    f, t = from_script, to_script
+
+    if f == t:
+        return text
+    elif f == ROM:
+        text = yiddish.detransliterate(text)
+    elif f == CHA:
+        raise NotImplementedError("Conversion from 'chasidic' not supported")
+
+    if t == CHA:
+        text = yiddish.hasidify(text)
+    elif t == ROM:
+        text = yiddish.transliterate(text, loshn_koydesh=True)
+
+    return text
+
+
+@click.command()
+@click.option("--from-script", "-f", type=click.Choice(SCRIPTS))
+@click.option("--to-script", "-t", type=click.Choice(SCRIPTS))
+def main(from_script, to_script):
+    stdin = click.get_text_stream("stdin", encoding="utf-8")
+
+    for line in stdin:
+        click.echo(message=transliterate(line, from_script, to_script), nl=False)
+
+
+if __name__ == "__main__":
+    main()

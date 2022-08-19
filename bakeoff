@@ -1,0 +1,46 @@
+#!/usr/bin/bash
+
+uroman_cmd=${1:-"../bin/uroman.pl -l yid"}
+
+corpus=corpus/saleva2020.csv
+yivo=corpus/yivo
+gold=corpus/gold
+preds_tsv=predictions/combined.tsv
+
+# make directories
+mkdir -p corpus predictions diffs
+
+printf "Downloading Saleva (2020) corpus...\n"
+[ ! -f "${corpus}" ] && curl -L# --output $corpus https://jonnesaleva.com/multi-orthography-yiddish-corpus
+echo
+
+printf "Grabbing YIVO and romanized fields from corpus...\n\n"
+cut -d"," -f2 $corpus | tail +2 >$yivo
+cut -d"," -f1 $corpus | tail +2 >$gold
+
+printf "Transliterating...\n\n"
+cat $yivo | ${uroman_cmd} >predictions/uroman
+cat $yivo | bin/transliterate_yiddish -f yivo -t romanized >predictions/bleaman
+
+printf "Evaluating...\n\n"
+bin/evaluate -r $gold predictions/{uroman,bleaman}
+
+# combine everything into TSV
+printf "yivo\tgold\tbleaman\turoman\n" >$preds_tsv
+paste corpus/{yivo,gold} predictions/{bleaman,uroman} >>$preds_tsv
+echo
+
+printf "Combined TSV located at %s\n\n" $preds_tsv
+head -n 20 $preds_tsv
+
+# find mistakes
+for model in uroman bleaman; do
+    git diff \
+        --no-index \
+        --color-words \
+        $gold predictions/$model \
+        >diffs/$model
+done
+
+printf "Diffs located at ./diffs/{bleaman,urmoan}\n"
+ls diffs
