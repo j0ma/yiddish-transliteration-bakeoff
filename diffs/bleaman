@@ -1,838 +1,429 @@
-[1mdiff --git a/corpus/gold b/predictions/bleaman[m
-[1mindex 5ea0708..e90d7a6 100644[m
-[1m--- a/corpus/gold[m
-[1m+++ b/predictions/bleaman[m
-[36m@@ -47,7 +47,7 @@[m [malmer[m
-alee[m
-alergye[m
-alef[m
-[31malef-beys[m[32malefbeys[m
-alfabet[m
-alkohol[m
-alkoholizm[m
-[36m@@ -137,11 +137,11 @@[m [maroysreyd[m
-aroysred[m
-arumnem[m
-orn[m
-[31morn-koydesh[m[32mornkoydesh[m
-ort[m
-ortografye[m
-ortodoks[m
-[31mortodoksiye[m[32mortodoksye[m
-artist[m
-artistke[m
-artikl[m
-[36m@@ -164,8 +164,8 @@[m [mash[m
-ashboym[m
-ashkenazi[m
-eyver[m
-[31madoyn[m
-[31madoyni[m[32mdun[m
-[32mduni[m
-ugerke[m
-oyg[m
-oyganes[m
-[36m@@ -179,7 +179,7 @@[m [moygenes[m
-oygepl[m
-oyvn[m
-oyto[m
-[31moytobiografye[m[32moytobyografye[m
-oytomobil[m
-oytomat[m
-oytonomye[m
-[36m@@ -214,8 +214,8 @@[m [muranyum[m
-ureltern[m
-os[m
-ekhod[m
-[31makhren[m
-[31makhrayes[m[32mkhrun[m
-[32mkhryus[m
-iberzetsung[m
-iberzetser[m
-ibermentsh[m
-[36m@@ -232,7 +232,7 @@[m [meyl[m
-eynikl[m
-eyntsol[m
-eyele[m
-[31miyer[m[32mier[m
-eyropeish[m
-eyropeer[m
-eyropeerin[m
-[36m@@ -263,13 +263,13 @@[m [mislamer[m
-irlender[m
-ire[m
-elel[m
-[31malef[m
-[31malef-beys[m[32melef[m
-[32mlf-bis[m
-emune[m
-[31mamoyre[m[32mmur[m
-emes[m
-[31mafikoymen[m
-[31morn[m[32malefפikumn[m
-[32mrun[m
-esreg[m
-ayz[m
-ayzn[m
-[36m@@ -280,7 +280,7 @@[m [mayroplan[m
-bob[m
-bobe[m
-bobe-zeyde[m
-[31mbobe-mayse[m[32mbobe-mesh[m
-bagazh[m
-baginen[m
-bagegenish[m
-[36m@@ -339,7 +339,7 @@[m [mbashafung[m
-bashafer[m
-bashlus[m
-bashefer[m
-[31mbovli[m[32mbavli[m
-beged[m
-badkhn[m
-behole[m
-[36m@@ -348,7 +348,7 @@[m [mbube[m
-bubele[m
-budhizm[m
-budhist[m
-[31mbuhay[m[32mbuhey[m
-buhay[m
-boygn[m
-boygn-shiser[m
-[36m@@ -368,7 +368,7 @@[m [mburik[m
-bokher[m
-byografye[m
-byokhemye[m
-[31mbialy[m[32mbyali[m
-biblyotek[m
-biblyoteker[m
-biblyotekerin[m
-[36m@@ -403,9 +403,9 @@[m [mbiks[m
-bir[m
-birger[m
-bishof[m
-[31mbeys[m
-[31mbeyz-din[m
-[31mbeys-oylem[m[32mbeyz[m
-[32mbezdn[m
-[32mbesoylem[m
-bkhor[m
-bkhoyre[m
-bloz[m
-[36m@@ -428,9 +428,9 @@[m [mblekh[m
-blekher[m
-blay[m
-blayer[m
-[31mbimkem[m
-[31mben-meylekh[m
-[31mbonem[m[32mbmkum[m
-[32mbenmeylekh[m
-[32mbonim[m
-bebl[m
-bezem[m
-bet[m
-[36m@@ -483,10 +483,10 @@[m [mbretl[m
-brem[m
-brenholts[m
-bray[m
-[31mbesomem[m
-[31mbas-malke[m
-[31mbas-kol[m
-[31mbsule[m[32mbsomim[m
-[32mbasmalke[m
-[32mbs-kul[m
-[32mpsule[m
-baytsh[m
-baykhl[m
-bayshpil[m
-[36m@@ -518,11 +518,11 @@[m [mgarberay[m
-gortn[m
-gortshitse[m
-gorile[m
-[31mgoen[m[32mgun[m
-gvure[m
-gabe[m
-gabete[m
-[31mgiber[m[32mgbur[m
-gvald[m
-gvalt[m
-gutmakhung[m
-[36m@@ -552,10 +552,10 @@[m [mgalekh[m
-glitsh[m
-glik[m
-glaykhung[m
-[31mgan[m
-[31mganef[m
-[31mganef[m
-[31mgnéyve[m[32mgn[m
-[32mgnb[m
-[32mganev[m
-[32mganeyve[m
-geografye[m
-geolog[m
-geologye[m
-[36m@@ -658,8 +658,8 @@[m [mdor[m
-dzhaz[m
-dzhukhe[m
-dzhiraf[m
-[31mdzshez[m
-[31mdzheyl[m[32mdzhez[m
-[32mdzheil[m
-dyademe[m
-dyalekt[m
-dyalektologye[m
-[36m@@ -684,7 +684,7 @@[m [mdiskotek[m
-diskriminatsye[m
-dikdek[m
-dire[m
-[31mdire-gelt[m[32mdirh-gelt[m
-dlonye[m
-delfin[m
-demografye[m
-[36m@@ -743,7 +743,7 @@[m [mhore[m
-harf[m
-harfe[m
-harts[m
-[31mharts[m[32mhrts[m
-havdole[m
-hut[m
-hoyz[m
-[36m@@ -759,7 +759,7 @@[m [mhun[m
-hunger[m
-hundertstl[m
-hunt[m
-[31mhore[m[32mhurh[m
-hidrogen[m
-hitl[m
-hey[m
-[36m@@ -784,8 +784,8 @@[m [mhistorye[m
-hirzh[m
-hirsh[m
-halokhe[m
-[31mhomen-tash[m
-[31mhomen-tashn[m[32mhomentash[m
-[32mhmn-tashn[m
-hebreish[m
-hebreish[m
-held[m
-[36m@@ -806,17 +806,17 @@[m [mher[m
-herb[m
-hering[m
-hertsog[m
-[31mhaftore[m[32mhftrh[m
-hatslokhe[m
-[31mhakdome[m
-[31mhorov[m[32mhagdome[m
-[32mhorav[m
-harige[m
-haskole[m
-hayzl[m
-hayzke[m
-hayskul[m
-hayfish[m
-[31mh'[m[32mhey׳[m
-vog[m
-vagon[m
-vagine[m
-[36m@@ -849,7 +849,7 @@[m [mvaremkeyt[m
-vortsl[m
-varshever[m
-vashtsimer[m
-[31mvaser[m[32mvser[m
-vund[m
-vunder[m
-vursht[m
-[36m@@ -868,7 +868,7 @@[m [mvidergutmakhung[m
-vize[m
-vey[m
-veydl[m
-[31mvayn[m[32mveyn[m
-veyts[m
-vindl[m
-vint[m
-[36m@@ -890,7 +890,7 @@[m [mvet-zayt[m
-veter[m
-velosiped[m
-velt[m
-[31mvelt-milkhome[m[32mvelt-mlkhmh[m
-velteyl[m
-veltsvertl[m
-veltsmentsh[m
-[36m@@ -978,7 +978,7 @@[m [mzikorn[m
-zikorn[m
-zlote[m
-zemer[m
-[31mzemerl[m[32mzmrl[m
-zebre[m
-zeg[m
-zekhtsikstl[m
-[36m@@ -1004,25 +1004,25 @@[m [mzayt[m
-khaver[m
-khevre[m
-khevreman[m
-[31mkhevreshaft[m[32mkhvrhshaft[m
-khaverte[m
-khavershaft[m
-kheyder[m
-khoydesh[m
-[31mkholemoyed[m[32mkhul hmued[m
-khumesh[m
-khupe[m
-khutspe[m
-[31mkhurbn[m[32mkhurbm[m
-khoyshekh[m
-khazer[m
-khazeray[m
-khazn[m
-[31mkhazal[m[32mkhz״lamed[m
-khidesh[m
-khaye[m
-[31mkhayel[m
-[31mkhayem[m[32mkhail[m
-[32mkhaim[m
-khilek[m
-khinekh[m
-khirek[m
-[36m@@ -1032,22 +1032,22 @@[m [mkhale[m
-kholem[m
-khomets[m
-kheyn[m
-[31mkhaneke[m[32mkhanike[m
-khosid[m
-khsides[m
-khsidizm[m
-[31mkhosidl[m
-[31mkhisorn[m[32mkhosedl[m
-[32mkhesorn[m
-kheyfets[m
-kharoyses[m
-kheyrem[m
-[31mkheshbn[m
-[31mkheshvn[m[32mkhezhbm[m
-[32mkhezhvn[m
-kheyshek[m
-khasene[m
-khsime[m
-khosn[m
-[31mkhosn-kale[m[32mkhosnkale[m
-tabak[m
-tog[m
-tog-bukh[m
-[36m@@ -1162,7 +1162,7 @@[m [myagde[m
-yogurt[m
-yagede[m
-yod[m
-[31myor[m[32myohr[m
-yanuar[m
-yonts[m
-yapanish[m
-[36m@@ -1178,7 +1178,7 @@[m [myortsendling[m
-yortsendlik[m
-yortsayt[m
-yashtsherke[m
-[31myor[m[32mir[m
-yedie[m
-yugnt[m
-yoykh[m
-[36m@@ -1190,36 +1190,36 @@[m [myunger-man[m
-yuni[m
-yunyon[m
-yupiter[m
-[31myikhus[m
-[31myid[m
-[31myidishizm[m
-[31myidishist[m
-[31myidishkeyt[m
-[31myidl[m
-[31myidene[m
-[31myingl[m
-[31myingele[m
-[31myires-hakoved[m[32mikhus[m
-[32meyִdalet[m
-[32meyִdishizm[m
-[32meyִdishist[m
-[32meyִdishkeyt[m
-[32meyִdl[m
-[32meyִdene[m
-[32meyִngl[m
-[32meyִngele[m
-[32meyִrs-hkvud[m
-yam[m
-[31myam-shtern[m
-[31myisurem[m[32mim-shtern[m
-[32myesurim[m
-yeger[m
-yevsektsye[m
-yente[m
-yeke[m
-[31myeytser-hatoyv[m
-[31myeytser-hore[m[32mitsr-htuv[m
-[32meyitser-hore[m
-yirgozn[m
-yerushe[m
-yarid[m
-yash[m
-yeshive[m
-[31myeshive-bokher[m
-[31myeshivish[m
-[31myeshive[m[32mishivh-bkhur[m
-[32mishivish[m
-[32mishibh[m
-yosem[m
-yesoyme[m
-[31myoseml[m[32misuml[m
-khalve[m
-khosn[m
-khasene[m
-[36m@@ -1229,14 +1229,14 @@[m [mkehune[m
-khvat[m
-khvalye[m
-koyekh[m
-[31mkezayes[m
-[31mkoyekh[m[32mkezais[m
-[32mkkh[m
-kale[m
-[31mklezayen[m[32mkle-zain[m
-khuligan[m
-klal[m
-[31mkislev[m
-[31mkas[m[32mkslu[m
-[32mkaas[m
-kashres[m
-ksube[m
-keser[m
-[36m@@ -1256,8 +1256,8 @@[m [mkhrizanteme[m
-khreyn[m
-khremzl[m
-khrestomatye[m
-[31mkashres[m
-[31mkeser[m[32mkhshrus[m
-[32mkhsr[m
-labn[m
-logaritm[m
-logik[m
-[36m@@ -1283,7 +1283,7 @@[m [mluekh[m
-loyb[m
-loyz[m
-loyer[m
-[31mlevyosn[m[32mloysn[m
-lulev[m
-lung[m
-luft[m
-[36m@@ -1300,7 +1300,7 @@[m [mliderbukh[m
-litvak[m
-litviner[m
-litvish[m
-[31mlitium[m[32mlityum[m
-liter[m
-literatur[m
-leyb[m
-[36m@@ -1342,11 +1342,11 @@[m [mleker[m
-lekerl[m
-lektsye[m
-lernung[m
-[31mlernyingl[m[32mlerneyִngl[m
-lerer[m
-lererin[m
-lets[m
-[31mleytsekhe[m[32mltsekhe[m
-loshn[m
-loshn-koydesh[m
-layb[m
-[36m@@ -1365,7 +1365,7 @@[m [mmaharadzha[m
-mototsikl[m
-matematik[m
-materye[m
-[31mmay[m[32mmai[m
-makh[m
-mokh[m
-makhorke[m
-[36m@@ -1379,7 +1379,7 @@[m [mmalpe[m
-moltsayt[m
-maminke[m
-mame[m
-[31mmame-loshn[m[32mmameloshn[m
-moment[m
-mamenyu[m
-mameshi[m
-[36m@@ -1421,7 +1421,7 @@[m [mmarksizm[m
-marksist[m
-marsh[m
-mashin[m
-[31mmadim[m[32mmaydem[m
-maykhl[m
-maymer[m
-meyvn[m
-[36m@@ -1429,9 +1429,9 @@[m [mmegile[m
-midber[m
-medine[m
-madreyge[m
-[31mmedrash[m[32mmedresh[m
-moyel[m
-[31mmoves[m[32mmvs[m
-muzey[m
-muzik[m
-muziker[m
-[36m@@ -1454,16 +1454,16 @@[m [mmoyre[m
-murashke[m
-mezuze[m
-mazl[m
-[31mmizrekh[m[32mmzrkh[m
-mekhaber[m
-mekhutn[m
-[31mmekhutonishaft[m
-[31mmekhuteneste[m
-[31mmekháye[m[32mmekhutoneshaft[m
-[32mmakheteneste[m
-[32mmekhaye[m
-makhloykes[m
-matbeye[m
-myate[m
-[31mmeyeskeyt[m[32mmieskeyt[m
-midkeyt[m
-mit[m
-mite[m
-[36m@@ -1487,7 +1487,7 @@[m [mmililiter[m
-milimeter[m
-milkh[m
-milkhiger[m
-[31mmilkiker[m[32mmilkhiker[m
-milekh[m
-min[m
-minaret[m
-[36m@@ -1508,26 +1508,26 @@[m [mmakabeyer[m
-make[m
-melokhe[m
-malekh[m
-[31mmalakhamoves[m
-[31mmelokhe[m[32mmlkh-hmus[m
-[32mmlkhh[m
-melukhe[m
-milkhome[m
-meylekh[m
-[31mmalke[m[32mmlkhh[m
-malke[m
-melamed[m
-memshole[m
-man[m
-[31mmenagan[m
-[31mmineg[m
-[31mmnoyre[m
-[31mminkhe[m[32mmenagn[m
-[32mmnhg[m
-[32mmenoyre[m
-[32mmnkhh[m
-minyen[m
-mesoyre[m
-mesire[m
-[32mmskhs[m
-mesekhte[m
-[31mmesekhte[m
-[31mmisper[m[32mmspr[m
-mebl[m
-medikament[m
-metod[m
-[36m@@ -1548,28 +1548,28 @@[m [mmentsh[m
-meser[m
-mekler[m
-mer[m
-[31mmayrev[m[32mmerb[m
-mayrev[m
-merheyt[m
-marokhe[m
-mertsol[m
-mesh[m
-[31mmayse/manse[m
-[31mmayse/manse[m[32mmayse[m
-[32mmeshh[m
-mafter[m
-matse[m
-[31mmetsiye[m
-[31mmikve[m[32mmetsie[m
-[32mmkvh[m
-mokem[m
-[31mmaskil[m[32mmaskl[m
-meshugener[m
-meshugas[m
-[31mmoshiyekh[m[32mmeshiekh[m
-moshl[m
-mishpokhe[m
-[31mmishpokhe[m[32mmshפkhh[m
-mashke[m
-[31mmeys[m[32mmes[m
-matone[m
-misnaged[m
-may[m
-[36m@@ -1596,8 +1596,8 @@[m [mnar[m
-narishkeyt[m
-nevue[m
-novi[m
-[31mneviye[m
-[31mngid[m[32mnevie[m
-[32mnoged[m
-nadn[m
-noyef[m
-nudnik[m
-[36m@@ -1730,9 +1730,9 @@[m [mseyfer[m
-seyfer-toyre[m
-skorpyon[m
-stire[m
-[31maveyre[m[32mevrh[m
-ivre[m
-[31meyd[m[32mad[m
-oylem[m
-oymer[m
-of[m
-[36m@@ -1741,7 +1741,7 @@[m [metik[m
-etnografye[m
-iber-yor[m
-ile[m
-[31meyn-hore[m[32meynhore[m
-eltern[m
-elterns[m
-alie[m
-[36m@@ -1755,7 +1755,7 @@[m [melektriker[m
-elektre[m
-elf[m
-elftl[m
-[31mamorets[m[32mim hrts[m
-amorets[m
-emigrant[m
-emigratsye[m
-[36m@@ -1841,13 +1841,13 @@[m [mforshung[m
-forshtelung[m
-fashizm[m
-fashist[m
-[31mpakhve[m
-[31mfar[m[32mפkhve[m
-[32mפr[m
-pogrom[m
-podloge[m
-podkove[m
-podkeve[m
-[31mpeye[m[32mpah[m
-povidle[m
-pave[m
-potasyum[m
-[36m@@ -1954,7 +1954,7 @@[m [mpleytse[m
-plimenitse[m
-plimenik[m
-pletsl[m
-[31mplishti[m[32mplshti[m
-fungus[m
-funt[m
-ponem[m
-[36m@@ -1991,7 +1991,7 @@[m [mprolog[m
-pronom[m
-profesor[m
-profesye[m
-[31mprof'[m[32mprof׳[m
-protsent[m
-praktik[m
-prusak[m
-[36m@@ -2026,7 +2026,7 @@[m [mfilologye[m
-filosofye[m
-film[m
-finants[m
-[31mfinger[m[32mפinger[m
-finger[m
-fingerl[m
-finish[m
-[36m@@ -2096,7 +2096,7 @@[m [mfayer[m
-fayerl[m
-fayertsung[m
-fayfl[m
-[31mf'[m[32mfey׳[m
-tsol[m
-tsam[m
-tson[m
-[36m@@ -2108,8 +2108,8 @@[m [mtsar[m
-tsarine[m
-tsaritse[m
-tsadek[m
-[31mtsedoke[m
-[31mtsadeykes[m[32mtsdoke[m
-[32mtsedeykes[m
-tsug[m
-tsuherer[m
-tsvantsikstl[m
-[36m@@ -2145,10 +2145,10 @@[m [mtsimer[m
-tsimering[m
-tsimring[m
-tsink[m
-[31mtsienist[m[32mtsyenist[m
-tsienist[m
-tsits[m
-[31mtsitsis[m[32mtsitses[m
-tsitsl[m
-tsitse[m
-tsir[m
-[36m@@ -2263,8 +2263,8 @@[m [mkoshik[m
-koshikl[m
-koshmar[m
-kashe[m
-[31mkop[m
-[31mkapele[m[32mkפ[m
-[32mkפele[m
-keyver[m
-kvores[m
-kabole[m
-[36m@@ -2305,7 +2305,7 @@[m [mkurs[m
-kush[m
-kibuts[m
-kidesh[m
-[31mkiyem[m[32mkiem[m
-kitl[m
-keyt[m
-keyser[m
-[36m@@ -2351,10 +2351,10 @@[m [mklipe[m
-klole[m
-klezmer[m
-komets[m
-[31mkomets-alef[m
-[31mkomets-alef[m[32mkmts-alf[m
-[32mkmts-lf[m
-knobl[m
-[31mkanoes[m[32mknus[m
-kni[m
-kneydl[m
-knish[m
-[36m@@ -2425,15 +2425,15 @@[m [mrats[m
-ratsyonalizm[m
-raket[m
-rosheshone[m
-[31mrishen[m[32mrishn[m
-reb[m
-rov[m
-rebe[m
-[31mrebe-nisl[m
-[31mrabeynu[m[32mrbi-nisl[m
-[32mrbinu[m
-rebenyu[m
-rebistve[m
-[31mrebetsin[m[32mrebetsn[m
-rabeynu[m
-rege[m
-rov[m
-[36m@@ -2485,15 +2485,15 @@[m [mrefue[m
-roshe[m
-rayz[m
-raykhkayt[m
-[31mreb[m[32mreysh׳[m
-soyne[m
-sotn[m
-sine[m
-skhires[m
-seykhl[m
-skhar[m
-[31msimkhe[m
-[31msine[m[32msmkhh[m
-[32msnh[m
-sreyfe[m
-srore[m
-sho[m
-[36m@@ -2510,10 +2510,10 @@[m [mshof[m
-shakal[m
-sharbn[m
-shayle[m
-[31msheyvet[m[32mshvat[m
-shabes[m
-[31msheyd[m
-[31mshadkhn[m[32mshed[m
-[32mshatkhn[m
-shvab[m
-shvoger[m
-shvom[m
-[36m@@ -2543,10 +2543,10 @@[m [mshule[m
-shuster[m
-shup[m
-shoyfet[m
-[31mshoyfer[m[32mshuפreysh[m
-shoyfer[m
-shoyresh[m
-[31mshokher[m[32mshkhur[m
-shakhres[m
-shtohl[m
-shtat[m
-[36m@@ -2573,7 +2573,7 @@[m [mshtik[m
-shtikl[m
-shtikshtof[m
-shtetl[m
-[31mshtekhl-khazer[m[32mshtekhl-khzir[m
-shtekhler[m
-shtekher[m
-shtekl[m
-[36m@@ -2620,12 +2620,12 @@[m [mshloftsimer[m
-shlafkeyt[m
-shlofrok[m
-sholem[m
-[31mshaleshudes[m[32mshlush-seudus[m
-shlyukhe[m
-[31mshliekh[m[32msheliekh[m
-shleykes[m
-shlimazl[m
-[31mshlimazlnitse[m[32mshlimezalnitse[m
-shlimil[m
-shlisl[m
-shlesl[m
-[36m@@ -2647,7 +2647,7 @@[m [mshmek[m
-shmekl[m
-shmekele[m
-shmerts[m
-[31mshames[m[32mshmsh[m
-shames[m
-shameste[m
-shnoz[m
-[36m@@ -2695,8 +2695,8 @@[m [mshprikhvort[m
-shpringer[m
-shprits[m
-shpayekhts[m
-[31mshpayekhts[m
-[31mshifles[m[32mshinפeyekhts[m
-[32mshflus[m
-shekl[m
-shklaf[m
-shroyf[m
-[36m@@ -2708,32 +2708,32 @@[m [mshrayber[m
-shrayberin[m
-shtadlen[m
-shtadlones[m
-[31mshtuhl[m[32mshsuhl[m
-shayn[m
-[31mtayve[m[32mtuh[m
-teyve[m
-tvue[m
-[31mtom[m[32mthom[m
-tokh[m
-tkhine[m
-tokhes[m
-[31mtokhes-leker[m[32mtokhes leker[m
-tifle[m
-tikn[m
-[31mteyrets[m[32mterets[m
-tishebov[m
-takhshet[m
-tel[m
-[31mtliye[m
-[31mtalyen[m[32mtlie[m
-[32mtlyun[m
-talyen[m
-talmetoyre[m
-talmed[m
-[31mtalmid-khokhem[m
-[31mtalmido[m[32mtalmed-khokhem[m
-[32mtalmide[m
-tam[m
-tamez[m
-[31mtemimes[m[32mtmimes[m
-tane[m
-tnay[m
-tones[m
-[36m@@ -2745,6 +2745,6 @@[m [mtakone[m
-targem[m
-tshuve[m
-tashlekh[m
-[31mtishebov[m
-[31mtishre[m
-[31mtokhes[m[32mtsheh-bov[m
-[32mtshri[m
-[32mskhs[m
+diff --git a/corpus/gold b/predictions/bleaman
+--- a/corpus/gold
+	+++ b/predictions/bleaman
+@@ -47,7 +47,7 @@ almer
+-alef-beys
+	+alefbeys
+@@ -137,11 +137,11 @@ aroysreyd
+-orn-koydesh
+	+ornkoydesh
+-ortodoksiye
+	+ortodoksye
+@@ -164,8 +164,8 @@ ash
+-adoyn
+-adoyni
+	+dun
+	+duni
+@@ -179,7 +179,7 @@ oygenes
+-oytobiografye
+	+oytobyografye
+@@ -214,8 +214,8 @@ uranyum
+-akhren
+-akhrayes
+	+khrun
+	+khryus
+@@ -232,7 +232,7 @@ eyl
+-iyer
+	+ier
+@@ -263,13 +263,13 @@ islamer
+-alef
+-alef-beys
+	+elef
+	+lf-bis
+-amoyre
+	+mur
+-afikoymen
+-orn
+	+alefפikumn
+	+run
+@@ -280,7 +280,7 @@ ayroplan
+ bobe-zeyde
+-bobe-mayse
+	+bobe-mesh
+@@ -339,7 +339,7 @@ bashafung
+-bovli
+	+bavli
+@@ -348,7 +348,7 @@ bube
+-buhay
+	+buhey
+ boygn-shiser
+@@ -368,7 +368,7 @@ burik
+-bialy
+	+byali
+@@ -403,9 +403,9 @@ biks
+-beys
+-beyz-din
+-beys-oylem
+	+beyz
+	+bezdn
+	+besoylem
+@@ -428,9 +428,9 @@ blekh
+-bimkem
+-ben-meylekh
+-bonem
+	+bmkum
+	+benmeylekh
+	+bonim
+@@ -483,10 +483,10 @@ bretl
+-besomem
+-bas-malke
+-bas-kol
+-bsule
+	+bsomim
+	+basmalke
+	+bs-kul
+	+psule
+@@ -518,11 +518,11 @@ garberay
+-goen
+	+gun
+-giber
+	+gbur
+@@ -552,10 +552,10 @@ galekh
+-gan
+-ganef
+-ganef
+-gnéyve
+	+gn
+	+gnb
+	+ganev
+	+ganeyve
+@@ -658,8 +658,8 @@ dor
+-dzshez
+-dzheyl
+	+dzhez
+	+dzheil
+@@ -684,7 +684,7 @@ diskotek
+-dire-gelt
+	+dirh-gelt
+@@ -743,7 +743,7 @@ hore
+-harts
+	+hrts
+@@ -759,7 +759,7 @@ hun
+-hore
+	+hurh
+@@ -784,8 +784,8 @@ historye
+-homen-tash
+-homen-tashn
+	+homentash
+	+hmn-tashn
+@@ -806,17 +806,17 @@ her
+-haftore
+	+hftrh
+-hakdome
+-horov
+	+hagdome
+	+horav
+-h'
+	+hey׳
+@@ -849,7 +849,7 @@ varemkeyt
+-vaser
+	+vser
+@@ -868,7 +868,7 @@ vidergutmakhung
+-vayn
+	+veyn
+@@ -890,7 +890,7 @@ vet-zayt
+-velt-milkhome
+	+velt-mlkhmh
+@@ -978,7 +978,7 @@ zikorn
+-zemerl
+	+zmrl
+@@ -1004,25 +1004,25 @@ zayt
+-khevreshaft
+	+khvrhshaft
+-kholemoyed
+	+khul hmued
+-khurbn
+	+khurbm
+-khazal
+	+khz״lamed
+-khayel
+-khayem
+	+khail
+	+khaim
+@@ -1032,22 +1032,22 @@ khale
+-khaneke
+	+khanike
+-khosidl
+-khisorn
+	+khosedl
+	+khesorn
+-kheshbn
+-kheshvn
+	+khezhbm
+	+khezhvn
+-khosn-kale
+	+khosnkale
+ tog-bukh
+@@ -1162,7 +1162,7 @@ yagde
+-yor
+	+yohr
+@@ -1178,7 +1178,7 @@ yortsendling
+-yor
+	+ir
+@@ -1190,36 +1190,36 @@ yunger-man
+-yikhus
+-yid
+-yidishizm
+-yidishist
+-yidishkeyt
+-yidl
+-yidene
+-yingl
+-yingele
+-yires-hakoved
+	+ikhus
+	+eyִdalet
+	+eyִdishizm
+	+eyִdishist
+	+eyִdishkeyt
+	+eyִdl
+	+eyִdene
+	+eyִngl
+	+eyִngele
+	+eyִrs-hkvud
+-yam-shtern
+-yisurem
+	+im-shtern
+	+yesurim
+-yeytser-hatoyv
+-yeytser-hore
+	+itsr-htuv
+	+eyitser-hore
+-yeshive-bokher
+-yeshivish
+-yeshive
+	+ishivh-bkhur
+	+ishivish
+	+ishibh
+-yoseml
+	+isuml
+@@ -1229,14 +1229,14 @@ kehune
+-kezayes
+-koyekh
+	+kezais
+	+kkh
+-klezayen
+	+kle-zain
+-kislev
+-kas
+	+kslu
+	+kaas
+@@ -1256,8 +1256,8 @@ khrizanteme
+-kashres
+-keser
+	+khshrus
+	+khsr
+@@ -1283,7 +1283,7 @@ luekh
+-levyosn
+	+loysn
+@@ -1300,7 +1300,7 @@ liderbukh
+-litium
+	+lityum
+@@ -1342,11 +1342,11 @@ leker
+-lernyingl
+	+lerneyִngl
+-leytsekhe
+	+ltsekhe
+ loshn-koydesh
+@@ -1365,7 +1365,7 @@ maharadzha
+-may
+	+mai
+@@ -1379,7 +1379,7 @@ malpe
+-mame-loshn
+	+mameloshn
+@@ -1421,7 +1421,7 @@ marksizm
+-madim
+	+maydem
+@@ -1429,9 +1429,9 @@ megile
+-medrash
+	+medresh
+-moves
+	+mvs
+@@ -1454,16 +1454,16 @@ moyre
+-mizrekh
+	+mzrkh
+-mekhutonishaft
+-mekhuteneste
+-mekháye
+	+mekhutoneshaft
+	+makheteneste
+	+mekhaye
+-meyeskeyt
+	+mieskeyt
+@@ -1487,7 +1487,7 @@ mililiter
+-milkiker
+	+milkhiker
+@@ -1508,26 +1508,26 @@ makabeyer
+-malakhamoves
+-melokhe
+	+mlkh-hmus
+	+mlkhh
+-malke
+	+mlkhh
+-menagan
+-mineg
+-mnoyre
+-minkhe
+	+menagn
+	+mnhg
+	+menoyre
+	+mnkhh
+	+mskhs
+-mesekhte
+-misper
+	+mspr
+@@ -1548,28 +1548,28 @@ mentsh
+-mayrev
+	+merb
+-mayse/manse
+-mayse/manse
+	+mayse
+	+meshh
+-metsiye
+-mikve
+	+metsie
+	+mkvh
+-maskil
+	+maskl
+-moshiyekh
+	+meshiekh
+-mishpokhe
+	+mshפkhh
+-meys
+	+mes
+@@ -1596,8 +1596,8 @@ nar
+-neviye
+-ngid
+	+nevie
+	+noged
+@@ -1730,9 +1730,9 @@ seyfer
+ seyfer-toyre
+-aveyre
+	+evrh
+-eyd
+	+ad
+@@ -1741,7 +1741,7 @@ etik
+ iber-yor
+-eyn-hore
+	+eynhore
+@@ -1755,7 +1755,7 @@ elektriker
+-amorets
+	+im hrts
+@@ -1841,13 +1841,13 @@ forshung
+-pakhve
+-far
+	+פkhve
+	+פr
+-peye
+	+pah
+@@ -1954,7 +1954,7 @@ pleytse
+-plishti
+	+plshti
+@@ -1991,7 +1991,7 @@ prolog
+-prof'
+	+prof׳
+@@ -2026,7 +2026,7 @@ filologye
+-finger
+	+פinger
+@@ -2096,7 +2096,7 @@ fayer
+-f'
+	+fey׳
+@@ -2108,8 +2108,8 @@ tsar
+-tsedoke
+-tsadeykes
+	+tsdoke
+	+tsedeykes
+@@ -2145,10 +2145,10 @@ tsimer
+-tsienist
+	+tsyenist
+-tsitsis
+	+tsitses
+@@ -2263,8 +2263,8 @@ koshik
+-kop
+-kapele
+	+kפ
+	+kפele
+@@ -2305,7 +2305,7 @@ kurs
+-kiyem
+	+kiem
+@@ -2351,10 +2351,10 @@ klipe
+-komets-alef
+-komets-alef
+	+kmts-alf
+	+kmts-lf
+-kanoes
+	+knus
+@@ -2425,15 +2425,15 @@ rats
+-rishen
+	+rishn
+-rebe-nisl
+-rabeynu
+	+rbi-nisl
+	+rbinu
+-rebetsin
+	+rebetsn
+@@ -2485,15 +2485,15 @@ refue
+-reb
+	+reysh׳
+-simkhe
+-sine
+	+smkhh
+	+snh
+@@ -2510,10 +2510,10 @@ shof
+-sheyvet
+	+shvat
+-sheyd
+-shadkhn
+	+shed
+	+shatkhn
+@@ -2543,10 +2543,10 @@ shule
+-shoyfer
+	+shuפreysh
+-shokher
+	+shkhur
+@@ -2573,7 +2573,7 @@ shtik
+-shtekhl-khazer
+	+shtekhl-khzir
+@@ -2620,12 +2620,12 @@ shloftsimer
+-shaleshudes
+	+shlush-seudus
+-shliekh
+	+sheliekh
+-shlimazlnitse
+	+shlimezalnitse
+@@ -2647,7 +2647,7 @@ shmek
+-shames
+	+shmsh
+@@ -2695,8 +2695,8 @@ shprikhvort
+-shpayekhts
+-shifles
+	+shinפeyekhts
+	+shflus
+@@ -2708,32 +2708,32 @@ shrayber
+-shtuhl
+	+shsuhl
+-tayve
+	+tuh
+-tom
+	+thom
+-tokhes-leker
+	+tokhes leker
+-teyrets
+	+terets
+-tliye
+-talyen
+	+tlie
+	+tlyun
+-talmid-khokhem
+-talmido
+	+talmed-khokhem
+	+talmide
+-temimes
+	+tmimes
+@@ -2745,6 +2745,6 @@ takone
+-tishebov
+-tishre
+-tokhes
+	+tsheh-bov
+	+tshri
+	+skhs
